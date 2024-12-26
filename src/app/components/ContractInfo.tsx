@@ -14,12 +14,12 @@ const ContractInfo = () => {
 
   return (
     <div className="flex flex-col items-center mt-12 space-y-4">
-      <h1 className="bg-teal-900 text-white text-center p-4 rounded-2xl border-4 border-white w-11/12 max-w-2xl">
+      <h1 className="bg-purple-800 text-white text-center p-4 rounded-2xl border-4 border-white w-11/12 max-w-2xl">
         Ticker: $PLSMD
       </h1>
       <button
         onClick={handleCopy}
-        className="bg-teal-900 text-white text-center p-4 rounded-2xl border-4 border-white w-11/12 max-w-2xl hover:bg-teal-800 transition-colors"
+        className="bg-purple-800 text-white text-center p-4 rounded-2xl border-4 border-white w-11/12 max-w-2xl hover:bg-teal-800 transition-colors"
       >
         {/* {contractAddress} */}
         Coming Soon!

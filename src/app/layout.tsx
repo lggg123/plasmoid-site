@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { NextUIProvider } from "@nextui-org/react";
 import "./globals.css";
 import { AnimatedBackground } from "./components/AnimatedBackground";
+import { BackgroundSpheres } from "./components/BackgroundSphere";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <NextUIProvider>
           <div className="relative min-h-screen">
             <AnimatedBackground />
+            <BackgroundSpheres />
             <div className="relative z-10">
               {children}
             </div>
