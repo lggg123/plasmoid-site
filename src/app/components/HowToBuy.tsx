@@ -17,7 +17,7 @@ const cards = [
     link: "https://phantom.app/buy/solana"
   },
   {
-    title: "3. Trade on Pump.fun",
+    title: "3. Trade on Dexscreener",
     description: "Visit dexscreener.com, connect your wallet, and swap SOL for $PLSMD",
     image: "/dex-screener-seeklogo.png",
     link: "https://pump.fun"
