@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { NextUIProvider } from "@nextui-org/react";
 import "./globals.css";
+import { AnimatedBackground } from "./components/AnimatedBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NextUIProvider>{children}</NextUIProvider>
+        <NextUIProvider>
+          <div className="relative min-h-screen">
+            <AnimatedBackground />
+            <div className="relative z-10">
+              {children}
+            </div>
+          </div>
+        </NextUIProvider>
       </body>
     </html>
   );
