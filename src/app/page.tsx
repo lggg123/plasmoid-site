@@ -7,9 +7,9 @@ import ContractInfo from './components/ContractInfo';
 import SocialLinks from './components/SocialLinks';
 import Description from './components/Description';
 import Footer from './components/Footer';
-import Image from 'next/image';
 import { GlowingSphere } from './components/GlowingSphere';
 import { BackgroundSpheres } from './components/BackgroundSphere';
+import HowToBuy from './components/HowToBuy';
 
 export default function Home() {
   return (
@@ -56,20 +56,8 @@ export default function Home() {
             
         </motion.div>
 
-        {/* Exchange Logo */}
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          className="flex justify-center my-8"
-        >
-          <Image
-            src="/pumpfun.png"
-            alt="Pump.fun Exchange"
-            width={200}
-            height={80}
-            className="rounded-lg"
-          />
-        </motion.div>
-
+        {/** How To Buy Section */}
+        <HowToBuy />
         {/* Footer */}
         <Footer />
       </motion.main>
