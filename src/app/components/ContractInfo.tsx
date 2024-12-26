@@ -21,7 +21,7 @@ const ContractInfo = () => {
         onClick={handleCopy}
         className="bg-teal-900 text-white text-center p-4 rounded-2xl border-4 border-white w-11/12 max-w-2xl hover:bg-teal-800 transition-colors"
       >
-        CA: {contractAddress}
+        {contractAddress}
         {copied && <span className="ml-2">(Copied!)</span>}
       </button>
     </div>
