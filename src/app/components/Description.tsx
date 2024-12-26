@@ -1,5 +1,5 @@
 const Description = () => (
-    <div className="bg-purple-700 text-white text-center p-4 rounded-2xl border-4 border-white mx-8 mt-12">
+    <div className="bg-purple-700/30 backdrop-blur-sm text-white text-center p-4 rounded-2xl border-2 border-white mx-8 mt-12">
       <h1 className="text-2xl font-bold">Introducing Plasmoid Coin: The Meme Coin of the Unknown</h1>
       <p className="mt-4">
         What are those mysterious plasmoid orbs appearing in the sky? Are they a cosmic phenomenon, a glimpse into another dimension, or something entirely beyond our understanding?
